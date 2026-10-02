@@ -1,0 +1,21 @@
+# Generated apps, objects, test output, and local recordings
+/build/
+/dist/
+.build/
+DerivedData/
+*.dSYM/
+*.wav
+
+# macOS and per-user Xcode state
+.DS_Store
+xcuserdata/
+*.xcuserstate
+
+# Local signing material and configuration
+*.p12
+*.p8
+*.mobileprovision
+*.provisionprofile
+.env
+.env.*
+!.env.example
